@@ -81,11 +81,9 @@
 
         <div class="section-title">
           <h2>Why rubbish? let me tell you</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>
+            When plastics are not recycled or collected, they can end up in landfills or waterways. The Great Pacific Garbage Patch is an island of floating plastic in the Pacific Ocean between California and Hawaii. With 80.000 tons of plastic, it is currently 3 times the size of France and accumulating rapidly. When the tidal waves break the plastics into smaller pieces overtime, fish eat it which is how microplastics end up on our plate. Scientists estimate that we may ingest on average up to a credit card worth of microplastics through food consumption recently microplastics were found in a human placenta. This shows that plastics do not only affect the natural environments and animals, but also humans. We need to address the plastic pollution problem at the source.
+          </p>
         </div>
 
         <div class="row">
@@ -95,8 +93,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>The "Return the Plastics" Project</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              #Returntheplastics proposes deposit-system to recycle bottles in supermarkets
             </p>
             <div class="row">
               <div class="col-lg-6">
@@ -117,8 +114,7 @@
               </div>
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+              #Returntheplastics is an initiative with an innovative proposal: to recycle plastic bottles based on a 15 eurocents deposit fee for every plastic bottle purchase in the European Union. Once empty, the consumer can return the plastic bottle to a supermarket which has a reverse vending machine to collect bottles for recycling. When the consumer brings back the empty plastic bottle, the consumer receives the 15 eurocents deposit fee which can be spent again in the supermarket.
             </p>
           </div>
         </div>
@@ -139,33 +135,33 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="count-box">
-              <i class="icofont-simple-smile"></i>
-              <span data-toggle="counter-up">232</span>
-              <p>Tons of plastic produced per minute</p>
+              <i class="icofont-water-bottle"></i>
+              <span data-toggle="counter-up">1,000,000</span>
+              <p>Plastic bottles sold worldwide per minute</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div class="count-box">
-              <i class="icofont-document-folder"></i>
-              <span data-toggle="counter-up">521</span>
-              <p>Tons of plastic in the ocean</p>
+              <i class="icofont-wave"></i>
+              <span data-toggle="counter-up">1,931,403</span>
+              <p>Km² of plastic waste floating in the ocean</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
-              <i class="icofont-live-support"></i>
-              <span data-toggle="counter-up">1,463</span>
-              <p>Kg of plastic per household, each week</p>
+              <i class="icofont-danger-zone"></i>
+              <span data-toggle="counter-up">70,000</span>
+              <p>Microplastics  eaten by an average person per year</p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="count-box">
-              <i class="icofont-users-alt-5"></i>
-              <span data-toggle="counter-up">15</span>
-              <p>Tons of recycled plastic per year</p>
+              <i class="icofont-clock-time"></i>
+              <span data-toggle="counter-up">450</span>
+              <p>years it take for a single water bottle to decompose</p>
             </div>
           </div>
 
