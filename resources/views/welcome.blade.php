@@ -95,24 +95,7 @@
             <p class="font-italic">
               #Returntheplastics proposes deposit-system to recycle bottles in supermarkets
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                {{-- <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 1 May 1995</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +123 456 7890</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> City : New York, USA</li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> email@example.com</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
-                </ul> --}}
-              </div>
-            </div>
+
             <p>
               #Returntheplastics is an initiative with an innovative proposal: to recycle plastic bottles based on a 15 eurocents deposit fee for every plastic bottle purchase in the European Union. Once empty, the consumer can return the plastic bottle to a supermarket which has a reverse vending machine to collect bottles for recycling. When the consumer brings back the empty plastic bottle, the consumer receives the 15 eurocents deposit fee which can be spent again in the supermarket.
             </p>
@@ -128,12 +111,73 @@
 
         <div class="section-title">
           <h2>The plastic crisis in numbers</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-7" data-aos="fade-right">
+            <div class="count-box" data-aos="fade-in">
+              <i class="icofont-water-bottle"></i>
+              <span data-toggle="counter-up" style="font-size: 80px">1,000,000</span>
+              <p>Plastic bottles sold worldwide per minute</p>
+            </div>
+          </div>
+          <div class="col-lg-5 fact-text">
+            <p>According to Euromonitor, 480 billion plastic bottles were sold in 2016 while in 2004, this was still 300 billion. Now, one million plastic bottles are sold every minute and the number of bottles sold yearly will increase to 583.3 billion in 2021</p>
+          </div>
+        </div>
+        <hr>
+
+        <br>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-lg-5 fact-text">
+            <p>Every year, about 8 million tons of plastic waste escapes into the oceans from coastal nations. That’s the equivalent of setting five garbage bags full of trash on every foot of coastline around the world.</p>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="count-box">
+            <i class="icofont-wave"></i>
+            <span data-toggle="counter-up" style="font-size: 80px">1,931,403</span>
+            <p>Km² of plastic waste floating in the ocean</p>
+          </div>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-right">
+            <div class="count-box">
+                <i class="icofont-danger-zone"></i>
+                <span data-toggle="counter-up" style="font-size: 80px">70,000</span>
+                <p>particles of microplastics eaten by an average person per year</p>
+              </div>
+          </div>
+          <div class="col-lg-5 fact-text">
+            <p>According to WWF, on average, people could actually be ingesting approximately 5 grams of microplastics every week - that’s the equivalent of a <b>credit card</b>!.</p>
+          </div>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-lg-5 fact-text">
+            <p>Every year, about 8 million tons of plastic waste escapes into the oceans from coastal nations. That’s the equivalent of setting five garbage bags full of trash on every foot of coastline around the world.</p>
+          </div>
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="count-box">
+            <i class="icofont-wave"></i>
+            <span data-toggle="counter-up" style="font-size: 80px">1,931,403</span>
+            <p>Km² of plastic waste floating in the ocean</p>
+          </div>
+        </div>
+
+
+
+
+          {{-- <div class="col-lg-3 col-md-6">
             <div class="count-box">
               <i class="icofont-water-bottle"></i>
               <span data-toggle="counter-up">1,000,000</span>
@@ -163,7 +207,43 @@
               <span data-toggle="counter-up">450</span>
               <p>years it take for a single water bottle to decompose</p>
             </div>
+          </div> --}}
+
+        </div>
+        <div class="row">
+
+          {{-- <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="icofont-water-bottle"></i>
+              <span data-toggle="counter-up">50</span>
+              <p>% of all plastics ever manufactured have been made in the last 15 years.</p>
+            </div>
           </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-wave"></i>
+              <span data-toggle="counter-up">448</span>
+              <p>tons of plastic were produced in 2015</p>
+              <p>Production is expected to double by <b>2050</b></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-danger-zone"></i>
+              <span data-toggle="counter-up">70,000</span>
+              <p>Microplastics  eaten by an average person per year</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-clock-time"></i>
+              <span data-toggle="counter-up">450</span>
+              <p>years it take for a single water bottle to decompose</p>
+            </div>
+          </div> --}}
 
         </div>
 
