@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>MyResume Bootstrap Template - Index</title>
+    <title>Return the Plastics - Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -41,6 +41,11 @@
 </head>
 
 <body>
+    @if (session('status'))
+        <div class="alert alert-success">
+            {{ session('status') }}
+        </div>
+    @endif
 
     <!-- ======= Mobile nav toggle button ======= -->
     <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -51,10 +56,11 @@
         <nav class="nav-menu">
             <ul>
                 <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-                <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-                <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-                <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
+                <li><a href="#about"><i class="bx bx-user"></i> <span>The project</span></a></li>
+                <li><a href="#steps"><i class="bx bx-file-blank"></i> <span>How to</span></a></li>
+                <li><a href="#goals"><i class="bx bx-server"></i> <span>Our goals</span></a></li>
+                <li><a href="#facts"><i class="bx bx-book-content"></i> <span>The plastic crisis</span></a></li>
+                <li><a href="#sign"><i class="bx bx-book-content"></i> <span>Support our project</span></a></li>
                 <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
@@ -81,7 +87,7 @@
     <main id="main">
 
         <!-- ======= About Section ======= -->
-        <section id="about" class="about">
+        <section id="about" class="about" style="padding-top:40px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -123,7 +129,7 @@
             </div>
         </section><!-- End About Section -->
         <!-- ======= Process section Section ======= -->
-        <section id="resume" class="resume">
+        <section id="steps" class="resume" style="padding-top:40px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -178,7 +184,7 @@
         </section><!-- End Resume Section -->
 
         <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
+        <section id="goals" class="services" style="padding-top:40px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -231,7 +237,7 @@
                                         d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781">
                                     </path>
                                 </svg>
-                                <i class='bx bxs-factory' ></i>
+                                <i class='bx bxs-factory'></i>
                             </div>
                             <h4><a href="">To make companies which produce beverage containers</a></h4>
                             <p>pay taxes for the recycling system (under the principle that the polluter should pay)
@@ -244,7 +250,7 @@
         </section><!-- End Services Section -->
 
         <!-- ======= Facts Section ======= -->
-        <section id="facts" class="facts">
+        <section id="facts" class="facts" style="padding-top:40px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -316,81 +322,38 @@
         </section><!-- End Facts Section -->
 
         <!-- ======= Skills Section ======= -->
-        <section id="skills" class="skills section-bg">
+        <section id="sign" class="skills section-bg" style="padding-top:40px">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Skills</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <h2>Support us and sign for a greener planet</h2>
+                    <p>In order to get full support by the European Institutions, our cause needs 1.000.000 signatures.
+                        Come! sign here for our project, and let's build a better world, with less plastic waste!.</p>
                 </div>
 
                 <div class="row skills-content">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-9">
 
                         <div class="progress">
-                            <span class="skill">HTML <i class="val">100%</i></span>
+                            <span class="skill">Signatures<i class="val">1.000.000</i></span>
                             <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">CSS <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">JavaScript <i class="val">75%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
                                     aria-valuemax="100"></div>
                             </div>
                         </div>
 
                     </div>
-
-                    <div class="col-lg-6">
-
-                        <div class="progress">
-                            <span class="skill">PHP <i class="val">80%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                        <div class="progress">
-                            <span class="skill">Photoshop <i class="val">55%</i></span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
-                            </div>
-                        </div>
-
-                    </div>
+                    <div class="col-lg-3"><a
+                            href="https://europa.eu/citizens-initiative/initiatives/details/2021/000007_en?fbclid=IwAR1nvsZUWyqUToz7p3-0ifpIpqWMRWglsoAv2wO3dCJj5ql3-wozygCACGg"
+                            target="blank" class="btn btn-primary">Sign here!</a></div>
 
                 </div>
 
             </div>
         </section><!-- End Skills Section -->
 
-
-        <!-- ======= Portfolio Section ======= -->
+        {{-- <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container" data-aos="fade-up">
 
@@ -570,16 +533,15 @@
                 </div>
 
             </div>
-        </section><!-- End Portfolio Section -->
+        </section><!-- End Portfolio Section --> --}}
 
 
-
-        <!-- ======= Testimonials Section ======= -->
+        {{-- <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
-                    <h2>Testimonials</h2>
+                    <h2>Other Projects</h2>
                 </div>
 
                 <div class="owl-carousel testimonials-carousel" data-aos="zoom-in" data-aos-delay="100">
@@ -650,10 +612,13 @@
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section><!-- End Testimonials Section --> --}}
 
         <!-- ======= Contact Section ======= -->
+
         <section id="contact" class="contact">
+
+
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -667,19 +632,13 @@
                             <div class="address">
                                 <i class="icofont-google-map"></i>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Chaussée d'Etterbeek 62/18, 1040 Brussels, Belgium</p>
                             </div>
 
                             <div class="email">
                                 <i class="icofont-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
-                            </div>
-
-                            <div class="phone">
-                                <i class="icofont-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <p>returntheplastics@outlook.com</p>
                             </div>
 
                         </div>
@@ -688,7 +647,8 @@
 
                     <div class="col-lg-8 mt-5 mt-lg-0">
 
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form action="{{ route('contact') }}" method="post" role="form" class="php-email-form">
+                            @csrf
                             <div class="form-row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name"
@@ -710,14 +670,13 @@
                                 <div class="validate"></div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                <textarea class="form-control" name="content" rows="5" data-rule="required"
                                     data-msg="Please write something for us" placeholder="Message"></textarea>
                                 <div class="validate"></div>
                             </div>
                             <div class="mb-3">
                                 <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                                <div class="alert alert-primary">Thank you for your message! We will get back to you as soon as possible.</div>
                             </div>
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
@@ -734,9 +693,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-            <h3>Brandon Johnson</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
-                placeat.</p>
+            <h3>#ReturnThePlastics</h3>
             <div class="social-links">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -745,9 +702,9 @@
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
             <div class="copyright">
-                &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>ReturnThePlastics</span></strong> 2021. All Rights Reserved
             </div>
-            <div class="credits">
+            <div class="credits" style="opacity: 0">
                 <!-- All the links in the footer should remain intact. -->
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: [license-url] -->
