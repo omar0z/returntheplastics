@@ -23,7 +23,7 @@ Route::get('/', function () {
 
 Route::post('contact', function (Request $request) {
 
-    Mail::to('returntheplastics@outlook.com')->send(new ContactMail(
+    Mail::to('returntheplastics@gmail.com')->send(new ContactMail(
         $request->subject,
         $request->content,
         $request->name,

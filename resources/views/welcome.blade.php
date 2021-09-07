@@ -638,7 +638,7 @@
                             <div class="email">
                                 <i class="icofont-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>returntheplastics@outlook.com</p>
+                                <p>returntheplastics@gmail.com</p>
                             </div>
 
                         </div>
