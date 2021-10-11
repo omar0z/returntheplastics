@@ -70,16 +70,16 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1 style="font-size: 60pt">THIS PROJECT IS <span class="typed" style="color: cornflowerblue"
+            <h1 >THIS PROJECT IS <span class="typed" style="color: cornflowerblue"
                     data-typed-items="RUBBISH!, CRAP!, A WASTE!"></span></h1>
             {{-- <p style="font-family: Arvo">Return <span class="typed" data-typed-items="the Plastics, the Ocean, the Purpose"></span></p> --}}
             <p style="font-family: Arvo">Return the Plastics</p>
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.instagram.com/return_the_plastics/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> --}}
+                {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
         </div>
     </section><!-- End Hero -->
@@ -694,11 +694,11 @@
         <div class="container">
             <h3>#ReturnThePlastics</h3>
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.instagram.com/return_the_plastics/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> --}}
+                {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
             <div class="copyright">
                 &copy; Copyright <strong><span>ReturnThePlastics</span></strong> 2021. All Rights Reserved

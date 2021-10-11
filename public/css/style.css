@@ -45,6 +45,14 @@ hr {
     align-items: center;
 }
 
+.rubbish-text{
+    font-size: 30pt;
+}
+
+@media screen {
+    #rubbish
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
