@@ -31,6 +31,21 @@ h6 {
     font-family: "Staatliches", serif;
 }
 
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;
+    background-color:#0d11e48e;
+    height: 3px;
+  }
+
+.fact-text {
+    display:flex;
+    align-items: center;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
