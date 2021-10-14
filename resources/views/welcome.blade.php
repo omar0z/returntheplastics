@@ -629,16 +629,16 @@
 
                     <div class="col-lg-4">
                         <div class="info">
-                            <div class="address">
+                            {{-- <div class="address">
                                 <i class="icofont-google-map"></i>
                                 <h4>Location:</h4>
                                 <p>Chaussée d'Etterbeek 62/18, 1040 Brussels, Belgium</p>
-                            </div>
+                            </div> --}}
 
                             <div class="email">
                                 <i class="icofont-envelope"></i>
                                 <h4>Email:</h4>
-                                <p>returntheplastics@gmail.com</p>
+                                <p>rik.stallaerts@gmail.com</p>
                             </div>
 
                         </div>
