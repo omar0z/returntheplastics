@@ -32,6 +32,16 @@
     <!-- Template Main CSS File -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-54GMPHC6DJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-54GMPHC6DJ');
+    </script>
+
     <!-- =======================================================
   * Template Name: MyResume - v2.2.1
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
