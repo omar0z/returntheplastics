@@ -40,5 +40,6 @@ Route::post('contact', function (Request $request) {
         return redirect()->back()->with('success', 'Your message has been sent. Thank you!');
     } catch (Exception $e) {
         Log::error("Email couldn't be sent. Reason; " . $e->getMessage());
+        return $e->getMessage();
     }
 })->name('contact');
