@@ -26,8 +26,8 @@ Route::post('contact', function (Request $request) {
     try {
         Log::info("Sending email to the admin contacts...");
 
-        // $contacts = ['rik.stallaerts@gmail.com', 'returntheplastics@gmail.com'];
-        $contacts = ['returntheplastics@gmail.com'];
+        $contacts = ['rik.stallaerts@gmail.com', 'returntheplastics@gmail.com'];
+        // $contacts = ['returntheplastics@gmail.com'];
 
         Mail::to($contacts)->send(new ContactMail(
             $request->subject,
