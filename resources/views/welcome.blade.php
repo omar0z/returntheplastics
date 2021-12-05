@@ -134,7 +134,7 @@
             {{-- <p style="font-family: Arvo">Return <span class="typed" data-typed-items="the Plastics, the Ocean, the Purpose"></span></p> --}}
             <p style="font-family: Arvo">Return the Plastics</p>
             <div class="social-links">
-                {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
+                <a href="https://twitter.com/ReturnPlastics" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="https://www.facebook.com/Return-the-Plastics-102454675600773" class="facebook"><i
                         class="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/return_the_plastics/" target="_blank" class="instagram"><i
@@ -754,7 +754,7 @@
         <div class="container">
             <h3>#ReturnThePlastics</h3>
             <div class="social-links">
-                {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
+                <a href="https://twitter.com/ReturnPlastics" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="https://www.facebook.com/Return-the-Plastics-102454675600773" class="facebook"><i
                         class="bx bxl-facebook"></i></a>
                 <a href="https://www.instagram.com/return_the_plastics/" class="instagram"><i
