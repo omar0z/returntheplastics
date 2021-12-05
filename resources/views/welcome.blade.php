@@ -6,25 +6,54 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-54GMPHC6DJ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-54GMPHC6DJ');
     </script>
-        <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WT3D3H4');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(
+                k, a)
+        })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(86703860, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/86703860" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/86703860" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -67,6 +96,10 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT3D3H4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     @if (session('status'))
         <div class="alert alert-success">
             {{ session('status') }}
@@ -96,14 +129,16 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1 >THIS PROJECT IS <span class="typed" style="color: cornflowerblue"
+            <h1>THIS PROJECT IS <span class="typed" style="color: cornflowerblue"
                     data-typed-items="RUBBISH!, CRAP!, A WASTE!"></span></h1>
             {{-- <p style="font-family: Arvo">Return <span class="typed" data-typed-items="the Plastics, the Ocean, the Purpose"></span></p> --}}
             <p style="font-family: Arvo">Return the Plastics</p>
             <div class="social-links">
                 {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
-                <a href="https://www.facebook.com/Return-the-Plastics-102454675600773" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/return_the_plastics/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.facebook.com/Return-the-Plastics-102454675600773" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/return_the_plastics/" target="_blank" class="instagram"><i
+                        class="bx bxl-instagram"></i></a>
                 {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> --}}
                 {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
@@ -193,8 +228,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-3" data-aos="flip-up" data-aos-delay="3000"
-                        data-aos-easing="linear">
+                    <div class="col-lg-3" data-aos="flip-up" data-aos-delay="3000" data-aos-easing="linear">
                         <h3 class="resume-title">4.</h3>
                         <div class="resume-item">
                             <h4><span style="font-size:30px"><i class="icofont-trophy-alt"></i></span> Success!</h4>
@@ -369,8 +403,7 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-3"><a
-                            href="https://eci.ec.europa.eu/020/public/#/screen/home"
+                    <div class="col-lg-3"><a href="https://eci.ec.europa.eu/020/public/#/screen/home"
                             target="blank" class="btn btn-primary">Sign here!</a></div>
 
                 </div>
@@ -701,7 +734,8 @@
                             </div>
                             <div class="mb-3">
                                 <div class="loading">Loading</div>
-                                <div class="alert alert-primary">Thank you for your message! We will get back to you as soon as possible.</div>
+                                <div class="alert alert-primary">Thank you for your message! We will get back to you as
+                                    soon as possible.</div>
                             </div>
                             <div class="text-center"><button type="submit">Send Message</button></div>
                         </form>
@@ -721,8 +755,10 @@
             <h3>#ReturnThePlastics</h3>
             <div class="social-links">
                 {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> --}}
-                <a href="https://www.facebook.com/Return-the-Plastics-102454675600773" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/return_the_plastics/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.facebook.com/Return-the-Plastics-102454675600773" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/return_the_plastics/" class="instagram"><i
+                        class="bx bxl-instagram"></i></a>
                 {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> --}}
                 {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
