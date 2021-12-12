@@ -82,6 +82,7 @@
     <link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="vendor/aos/aos.css" rel="stylesheet">
 
+
     <!-- Template Main CSS File -->
     <link href="css/style.css" rel="stylesheet">
 
@@ -100,6 +101,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT3D3H4" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+
     @if (session('status'))
         <div class="alert alert-success">
             {{ session('status') }}
@@ -141,6 +143,11 @@
                         class="bx bxl-instagram"></i></a>
                 {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> --}}
                 {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
+            </div>
+            <br>
+            <div class="">
+                <a href="https://eci.ec.europa.eu/020/public/#/screen/home"
+                target="blank" class="btn btn-primary">Support our project here!</a>
             </div>
         </div>
     </section><!-- End Hero -->
@@ -775,7 +782,10 @@
         </div>
     </footer><!-- End Footer -->
 
-    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <!-- <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a> --}}-->
+    <div class="row">
+        <a href="https://eci.ec.europa.eu/020/public/#/screen/home" class="back-to-top col-5  btn btn-primary"> <i class='bx bxs-like bx-tada-hover bx-edit-alt'></i> <span>Support our project</span></a>
+    </div>
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
