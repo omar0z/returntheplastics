@@ -53,6 +53,14 @@ hr {
     #rubbish
 }
 
+/* Map */
+@media screen and (max-width: 768px) {
+    #map {
+        visibility: hidden;
+        display: none;
+
+    }
+}
 
 /*--------------------------------------------------------------
 # Back to top button
