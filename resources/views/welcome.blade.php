@@ -784,7 +784,7 @@
 
     <!-- <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a> --}}-->
     <div class="row">
-        <a href="https://eci.ec.europa.eu/020/public/#/screen/home" class="back-to-top col-5  btn btn-primary"> <i class='bx bxs-like bx-tada-hover bx-edit-alt'></i> <span>Support our project</span></a>
+        <a href="https://eci.ec.europa.eu/020/public/#/screen/home" class="back-to-top col-xscol-3  btn btn-primary"> <i class='bx bxs-like bx-tada-hover bx-edit-alt'></i> <span>Support our project</span></a>
     </div>
     <div id="preloader"></div>
 
