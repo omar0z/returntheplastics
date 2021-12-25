@@ -75,17 +75,6 @@
     </noscript>
     <!-- End Facebook Pixel Code -->
 
-    <!-- Twitter universal website tag code -->
-    <script>
-        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-    a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-    // Insert Twitter Pixel ID and Standard Event data below
-    twq('init','o7bnl');
-    twq('track','PageView');
-    </script>
-    <!-- End Twitter universal website tag code -->
-
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -678,6 +667,17 @@
 
     <!-- Template Main JS File -->
     <script src="js/main.js"></script>
+
+    <!-- Twitter universal website tag code -->
+    <script>
+        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+    a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','o7bnl');
+    twq('track','PageView');
+    </script>
+    <!-- End Twitter universal website tag code -->
 
 </body>
 
