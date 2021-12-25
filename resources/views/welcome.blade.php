@@ -3,18 +3,14 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-54GMPHC6DJ"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213372559-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-54GMPHC6DJ');
+        gtag('config', 'UA-213372559-1');
     </script>
-    <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -55,6 +51,9 @@
         <div><img src="https://mc.yandex.ru/watch/86703860" style="position:absolute; left:-9999px;" alt="" /></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
+
+    <!-- Facebook domain verification -->
+    <meta name="facebook-domain-verification" content="wxqbwci7917z2w9punbmkdbbv40y1e" />
 
     <!-- Facebook Pixel Code -->
     <script>
