@@ -642,7 +642,8 @@
                 {{-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
             <div class="copyright">
-                &copy; Copyright <strong><span>ReturnThePlastics</span></strong> 2021. All Rights Reserved
+                &copy; Copyright <strong><span>ReturnThePlastics</span></strong> 2021. All Rights Reserved.
+                 <br><a href="{{route('privacy')}}">Read our Privacy Policy Here</a>
             </div>
             <div class="credits" style="opacity: 0">
                 <!-- All the links in the footer should remain intact. -->
